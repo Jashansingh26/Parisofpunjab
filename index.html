@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Paris of Punjab</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      text-align: center;
+      font-family: Poppins, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+  nav {
+  background-color: rgba(255, 255, 255, 0.1); /* semi-transparent grey */
+  backdrop-filter: blur(5px); /* frosted glass effect (optional) */
+  padding: 15px 0;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  }
+
+  nav a {
+    color: gold;
+    margin: 0 25px;
+    text-decoration: none;
+    font-size: 28px;
+    font-family: 'Playfair Display', serif;
+  }
+
+   p {
+      font-size: 20px;
+      max-width: 800px;
+      margin: 20px auto;
+      font-family: 'Playfair Display', serif;
+      font style:italic;
+      word-spacing:0.3em;
+    }
+
+    ul {
+      font-size: 20px;
+      list-style: none;
+      padding: 0;
+      font-family: 'Playfair Display', serif;
+      fontstyle: italic;
+      word-spacing:0.3em;
+    }
+
+    .scrolling-gallery {
+        width: 90%;
+        margin: 20px auto;
+        overflow-x: auto;
+        border: 2px solid black;
+        border-radius: 10px;
+        background-color: #111;
+        padding: 10px 0;
+      
+      scrollbar-width: none;
+      -ms-overflow-style:none;
+    }
+
+    .scrolling-gallery::-webkit-scrollbar {
+       display: none;  /* Chrome, Safari, Opera */
+   }
+
+    .scrolling-gallery {
+         margin-bottom: 60px; /* Add this or increase the existing value */
+   }
+
+    .scrolling-images {
+      display: flex;
+      scroll-behavior: smooth;
+   }
+
+    .scrolling-images img {
+      width: 400px;
+      height: 250px;
+      margin: 10px;
+      border-radius: 8px;
+      object-fit: cover;
+      box-shadow: 0 0 8px white;
+    }
+
+    .scrolling-images img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 12px gold;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    h1, h2, h3 {
+      color: #B8860B;
+    }
+
+    hr {
+      border: 1px solid #444;
+      width: 60%;
+      margin: 40px auto;
+    }
+
+  </style>
+</head>
+<body>
+
+  <nav>
+  <a href="index.html">Home</a>
+  <a href="history.html">History</a>
+  <a href="places.html">Famous Places</a>
+  <a href="form.html">Contact</a>
+  </nav>
+
+
+  <img src="photo1.jpg" alt="Main Image" style="width:1200px; max-height: 700px;">
+
+  
+  <h1>Welcome to Kapurthala – The Paris of Punjab</h1>
+
+  <p>
+    Kapurthala, often referred to as the <strong>"Paris of Punjab"</strong>, is a historic city known for its elegant French-inspired architecture, royal heritage, and beautiful landmarks. 
+    Once the capital of the princely state of Kapurthala, the city reflects the vision of Maharaja Jagatjit Singh, who admired European art, culture, and architecture.
+  </p>
+
+  <hr>
+
+  <h1>Why is it called the Paris of Punjab?</h1>
+
+  <p>
+    The city's majestic buildings like the <strong>Jagatjit Palace</strong> and the <strong>Moorish Mosque</strong> were designed in European styles, making Kapurthala resemble a French city.
+    The well-planned gardens, boulevards, and monuments reflect a blend of Indo-European culture, which makes this city truly unique in Punjab.
+  </p>
+
+  <hr>
+
+  <h1>What You’ll Find Here</h1>
+  <ul>
+    <li>🏛️ A look into Kapurthala's royal history</li>
+    <li>📸 Famous places like Jagatjit Palace, Shalimar Gardens, and more</li>
+    <li>🎨 A glimpse of its French-inspired architecture</li>
+    <li>🌍 Cultural, historical, and religious importance</li>
+  </ul>
+
+  <div class="scrolling-gallery">
+    <div class="scrolling-images">
+      <img src="moorish1.jpg" alt="Moorish Mosque" />
+      <img src="moorish2.jpg" alt="Moorish Mosque" />
+      <img src="sainikschool2.jpg" alt="Sainik School" />
+      <img src="panchmandir.jpg" alt="Panch Mandir" />
+      <img src="kanjli.jpg" alt="Kanjli Wetlands" />
+      <img src="hattsahib.jpg" alt="Hatt Sahib" />
+      <img src="bersahib.jpg" alt="Gurdwara Ber Sahib" />
+      <img src="stategurudwara.jpg" alt="State Gurudwara" />
+      <img src="sciencecity1.jpg" alt="Science City" />
+      <img src="sciencecity2.jpg" alt="Science City" />
+      <img src="rcf1.jpg" alt="RCF" />
+      <img src="rcf2.jpg" alt="RCF" />
+    </div>
+  </div>
+
+ <section style="background-color: #111; padding: 40px 20px; text-align: center;">
+   <h1 style="font-family: 'Playfair Display', serif;">📬 Stay Connected</h1>
+   <p style="font-size: 18px; font-family: 'Playfair Display', serif;">
+    Subscribe to get updates about Kapurthala, its beauty, and upcoming features on our site.
+   </p>
+  <form style="margin-top: 20px;">
+    <input type="email" placeholder="Enter your email address" required
+           style="padding: 20px; width: 300px; border: none; border-radius: 5px; font-size: 16px;">
+    <button type="submit"
+            style="padding: 20px 20px; background-color: white; color: black; border: none; border-radius: 5px; font-size: 16px; margin-left: 10px; cursor: pointer;">
+      Subscribe
+    </button>
+  </form>
+</section>
+
+   <div style="margin: 40px auto; max-width: 90%;">
+     <h2 style="font-family: 'Playfair Display', serif;">📍 Find Us on the Map</h2>
+   <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27459.998515153074!2d75.3663796!3d31.3794657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a5f3c35a6c5e7%3A0x506b255ae993e34e!2sKapurthala%2C%20Punjab!5e0!3m2!1sen!2sin!4v1720515241701!5m2!1sen!2sin" 
+    width="100%" 
+    height="400" 
+    style="border:0; border-radius: 10px;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+
+  <footer style="margin-top: 60px; background-color: #111; padding: 30px 20px; font-size: 18px;">
+       &copy; 2025 <strong>PARIS OF PUNJAB</strong>. All rights reserved. | Crafted with dedication.
+  </footer>
+
+</body>
+</html>

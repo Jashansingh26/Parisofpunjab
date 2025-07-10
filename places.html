@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Famous Places - Kapurthala</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: Poppins, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    nav {
+  background-color: rgba(255, 255, 255, 0.1); /* semi-transparent grey */
+  backdrop-filter: blur(5px); /* frosted glass effect (optional) */
+  padding: 15px 0;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav a {
+  color: gold;
+  margin: 0 25px;
+  text-decoration: none;
+  font-size: 28px;
+  font-family: 'Playfair Display', serif;
+}
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      margin-top: 30px;
+      color: #B8860B ;
+      font-size: 40px;
+    }
+
+    .place-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      padding: 40px 20px;
+    }
+
+    .place-card {
+      background-color: #1a1a1a;
+      border-radius: 12px;
+      width: 300px;
+      padding: 20px;
+      transition: transform 0.3s ease;
+    }
+
+    .place-card:hover {
+      transform: scale(1.10);
+       box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+       box-shadow: 0 0 12px gold;
+    }
+
+
+    .place-card img {
+      width: 100%;
+      border-radius: 10px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .place-card h2 {
+      font-family: 'Playfair Display', serif;
+      margin-top: 15px;
+      font-size: 25px;
+    }
+
+    .place-card p {
+      font-size: 16px;
+      color: #ccc;
+      line-height: 1.6;
+      margin-top: 10px;
+    }
+
+    footer {
+      margin-top: 60px;
+      background-color: #111;
+      padding: 30px 20px;
+      font-size: 18px;
+    }
+    hr {
+      border: 1px solid #444;
+      width: 60%;
+      margin: 40px auto;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="history.html">History</a>
+    <a href="places.html">Famous Places</a>
+    <a href="form.html">Contact</a>
+  </nav>
+<hr>
+  <h1>📍 Famous Places in Kapurthala</h1>
+<hr>
+  <!-- Famous Places Grid -->
+  <div class="place-container">
+
+    <!-- Moorish Mosque -->
+    <div class="place-card">
+      <img src="moorish1.jpg" alt="Moorish Mosque">
+      <h2>Moorish Mosque</h2>
+      <p>Designed by a French architect, this mosque is a rare example of Islamic and European fusion in Punjab.</p>
+    </div>
+
+    <!-- Sainik School -->
+    <div class="place-card">
+      <img src="sainikschool1.jpg" alt="Sainik School Kapurthala">
+      <h2>Sainik School</h2>
+      <p>One of India's premier military schools, located in the historical Jagatjit Palace campus.</p>
+    </div>
+<!-- Science City -->
+    <div class="place-card">
+      <img src="sciencecity1.jpg" alt="Science City Kapurthala">
+      <h2>Science City</h2>
+      <p>A modern science museum and education center featuring interactive exhibits and 3D shows.</p>
+    </div>
+
+   
+    <!-- Gurudwara Hatt Sahib -->
+    <div class="place-card">
+      <img src="hattsahib.jpg" alt="Gurudwara Hatt Sahib">
+      <h2>Gurudwara Hatt Sahib</h2>
+      <p>A sacred Sikh site where Guru Nanak Dev Ji is believed to have halted for discourse.</p>
+    </div>
+
+    <!-- Gurudwara Ber Sahib -->
+    <div class="place-card">
+      <img src="bersahib.jpg" alt="Gurudwara Ber Sahib">
+      <h2>Gurudwara Ber Sahib</h2>
+      <p>One of the most important Gurudwaras in Punjab, associated with Guru Nanak Dev Ji’s enlightenment.</p>
+    </div>
+
+    <!-- State Gurudwara -->
+    <div class="place-card">
+      <img src="stategurudwara.jpg" alt="State Gurudwara">
+      <h2>State Gurudwara</h2>
+      <p>Known for its unique Mughal-inspired architecture and peaceful spiritual ambiance.</p>
+    </div>
+
+<!-- Kanjli Wetland -->
+    <div class="place-card">
+      <img src="kanjli.jpg" alt="Kanjli Wetland">
+      <h2>Kanjli Wetland</h2>
+      <p>A tranquil wetland ecosystem ideal for bird-watching and nature walks, part of the Harike ecosystem.</p>
+    </div>
+
+     <!-- Panch Mandir -->
+    <div class="place-card">
+      <img src="panchmandir.jpg" alt="Panch Mandir">
+      <h2>Panch Mandir</h2>
+      <p>A revered Hindu temple complex known for its five shrines and serene environment.</p>
+    </div>
+
+
+    <!-- RCF -->
+    <div class="place-card">
+      <img src="rcf1.jpg" alt="RCF Kapurthala">
+      <h2>RCF Kapurthala</h2>
+      <p>Rail Coach Factory – a major coach manufacturing hub, known nationwide for its industrial contribution.</p>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 <strong>PARIS OF PUNJAB</strong>. All rights reserved. | Designed with pride.
+  </footer>
+
+</body>
+</html>
